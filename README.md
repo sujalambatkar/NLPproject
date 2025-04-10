@@ -40,6 +40,25 @@ The aim of this project is to develop an intelligent plagiarism detection system
 
  Comparative Analysis:
 The comparative analysis of different models highlights their effectiveness in classifying financial texts into the correct sentiment category (positive, negative, neutral). The following table summarizes the accuracy, precision, recall, and F1-score of the models tested:
+##
+
+## Model Accuracy Comparison
+
+| Model                   | Accuracy |
+|-------------------------|----------|
+| CNN + BoW               | 1.000    |
+| CNN-BiLSTM + BoW        | 1.000    |
+| LSTM + BoW              | 0.995    |
+| BiLSTM + BoW            | 0.975    |
+| CNN + TF-IDF           | 0.500    |
+| LSTM + TF-IDF          | 0.500    |
+| BiLSTM + TF-IDF        | 0.500    |
+| CNN-BiLSTM + TF-IDF    | 0.500    |
+| LSTM + FastText        | 0.065    |
+| BiLSTM + FastText      | 0.015    |
+| CNN + FastText         | 0.000    |
+| CNN-BiLSTM + FastText  | 0.000    |
+
 
 Conclusion
 Plagiarism detection through Natural Language Processing offers a powerful and intelligent approach to maintaining content originality. By leveraging both traditional techniques like TF-IDF and cosine similarity, along with modern deep learning models such as BERT, the system can effectively identify not only exact matches but also semantic similarities and paraphrased content.
